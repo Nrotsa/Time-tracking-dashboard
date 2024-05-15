@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+    <link href="styles/styles.css" rel="stylesheet" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Time tracking dashboard</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+        position: absolute;
+        bottom: 10px;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div class="left-flex">
+        <div class="top">
+          <img src="images/image-jeremy.png" alt="profile picture" />
+          <div class="rep-box">
+          <p class="report">Report for</p>
+          <p class="name">Jeremy Robson</p>
+        </div>
+        </div>
+        <div class="bot">
+          <p id="Daily-button" class="period">Daily</p>
+          <p id="Weekly-button" class="period">Weekly</p>
+          <p id="Monthly-button" class="period">Monthly</p>
+        </div>
+      </div>
+      <div class="right-flex">
+        <div class="category">
+          <div class="img-box">
+            <img
+              src="images/icon-work.svg"
+              alt="background image for work category"
+            />
+          </div>
+          <div class="category-bot">
+            <div class="title-box">
+              <p class="title">Work</p>
+              <img class="icon-img" src="images/icon-ellipsis.svg" />
+            </div>
+            <div class="small-box">
+            <p id="hoursWork" class="hours">32hrs</p>
+            <p id="lastWork" class="last-week">Last Week - 36hrs</p>
+          </div>
+          </div>
+        </div>
+        <div class="category">
+          <div class="img-box">
+            <img
+              src="images/icon-play.svg"
+              alt="background image for work category"
+            />
+          </div>
+          <div class="category-bot">
+            <div class="title-box">
+              <p class="title">Play</p>
+              <img class="icon-img" src="images/icon-ellipsis.svg" />
+            </div>
+            <div class="small-box">
+              <p id="hoursPlay" class="hours">32hrs</p>
+            <p id="lastPlay" class="last-week">Last Week - 36hrs</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="category">
+          <div class="img-box">
+            <img
+              src="images/icon-study.svg"
+              alt="background image for work category"
+            />
+          </div>
+          <div class="category-bot">
+            <div class="title-box">
+              <p class="title">Study</p>
+              <img class="icon-img" src="images/icon-ellipsis.svg" />
+            </div>
+            <div class="small-box">
+              <p id="hoursStudy" class="hours">32hrs</p>
+              <p id="lastStudy" class="last-week">Last Week - 36hrs</p>
+            </div>
+          </div>
+        </div>
+        <div class="category">
+          <div class="img-box">
+            <img
+              src="images/icon-exercise.svg"
+              alt="background image for work category"
+            />
+          </div>
+          <div class="category-bot">
+            <div class="title-box">
+              <p class="title">Exercise</p>
+              <img class="icon-img" src="images/icon-ellipsis.svg" />
+            </div>
+            <div class="small-box">
+              <p id="hoursExercise" class="hours">32hrs</p>
+              <p id="lastExercise" class="last-week">Last Week - 36hrs</p>
+            </div>
+          </div>
+        </div>
+        <div class="category">
+          <div class="img-box">
+            <img
+              src="images/icon-social.svg"
+              alt="background image for work category"
+            />
+          </div>
+          <div class="category-bot">
+            <div class="title-box">
+              <p class="title">Social</p>
+              <img class="icon-img" src="images/icon-ellipsis.svg" />
+            </div>
+            <div class="small-box">
+              <p id="hoursSocial" class="hours">32hrs</p>
+              <p id="lastSocial" class="last-week">Last Week - 36hrs</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="category">
+          <div class="img-box">
+            <img
+              src="images/icon-self-care.svg"
+              alt="background image for work category"
+            />
+          </div>
+          <div class="category-bot">
+            <div class="title-box">
+              <p class="title">Self Care</p>
+              <img class="icon-img" src="images/icon-ellipsis.svg" />
+            </div>
+            <div class="small-box">
+              <p id="hoursSelf" class="hours">32hrs</p>
+              <p id="lastSelf" class="last-week">Last Week - 36hrs</p>
+            </div>
+          </div>
+        </div>
+    </main>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io/challenges/time-tracking-dashboard-UIQ7167Jw" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Nrosta</a>.
+    </div>
+    <script src="js/js.js"></script>
+
+  </body>
+</html>
