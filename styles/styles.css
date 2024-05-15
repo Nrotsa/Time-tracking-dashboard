@@ -39,7 +39,7 @@ body {
   justify-content: center;
   flex-direction: column;
   overflow-x: hidden;
-
+  color:var(--Pale-Blue);
   width: 100%;
   font-size: 1.0625rem;
 }
